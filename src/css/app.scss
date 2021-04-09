@@ -1,0 +1,39 @@
+// app global css in SCSS form
+
+.small-screen-only {
+    @media (max-width: $breakpoint-xs-max) {
+        display: block}
+    @media (min-width: $breakpoint-sm-min) {
+        display: none}
+}
+
+.large-screen-only {
+    @media (max-width: $breakpoint-xs-max) {
+        display: none}
+    @media (min-width: $breakpoint-sm-min) {
+        display: block}
+}
+
+.text-h1 {
+    font-family: 'Lato';
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.text-h2 {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-h3 {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text-info {
+    font-family: 'Lato';
+    font-size: 11px;
+    font-weight: normal;
+}
